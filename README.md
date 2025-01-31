@@ -41,9 +41,9 @@ ReDoc es una documentación estática y más limpia de la API.
 
 ## Requisitos previos
 Asegúrate de tener instalado lo siguiente en tu sistema:
-- Python 3.x
-- Node.js (versión X)
-- npm o yarn
+- Python 3
+- Node.js 
+- npm
 - Git
 
 ## Tecnologías utilizadas
