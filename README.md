@@ -19,16 +19,12 @@ ReDoc es una documentación estática y más limpia de la API. (Se ingresa al si
 
 ---
 
-### Explicación de la sección
 1. **Swagger UI**:
    - Proporciona una interfaz interactiva donde los usuarios pueden probar los endpoints de la API directamente desde el navegador.
    - Es ideal para desarrolladores que quieren explorar la API rápidamente.
 
 2. **ReDoc**:
    - Ofrece una documentación estática y más limpia, ideal para usuarios que solo quieren leer la documentación sin interactuar con la API.
-
-3. **Instrucciones claras**:
-   - Incluye pasos sencillos para acceder a la documentación, como iniciar el servidor de Django y visitar las URLs proporcionadas.
 
 ---
 
