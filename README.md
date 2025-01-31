@@ -57,7 +57,7 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
    ```
 2. Ve al directorio del proyecto: 
     ```bash
-    cd pruebaTecnica
+    cd react-django-admin-dashboard
     ```
 3. Ve al directorio del backend: 
     ```bash
@@ -94,7 +94,7 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
    ```bash
    python manage.py runserver
    ```
-12. Abre una terminal e ingresa al directorio del frontend (../pruebaTecnica/frontend)
+12. Abre una terminal e ingresa al directorio del frontend (../react-django-admin-dashboard/frontend)
     ```bash 
     cd frontend
     ```
