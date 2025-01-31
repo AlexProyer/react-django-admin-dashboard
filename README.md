@@ -57,7 +57,7 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/AlexProyer/react-django-admin-dashboard)
    ```
 2. Ve al directorio del proyecto: 
     ```bash
