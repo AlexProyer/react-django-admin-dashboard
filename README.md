@@ -8,12 +8,12 @@ La documentación de la API fue generada usando [drf-yasg](https://drf-yasg.read
 La documentación de la API está generada automáticamente usando **drf-yasg**. Puedes acceder a ella desde las siguientes URLs:
 
 ### Swagger UI
-Swagger es una interfaz interactiva que te permite explorar y probar los endpoints de la API.
+Swagger es una interfaz interactiva que te permite explorar y probar los endpoints de la API. (Se ingresa al siguiente link con el servidor DJango iniciado, no es un dominio)
 
 - **URL**: [http://127.0.0.1:8000/api/swagger/](http://127.0.0.1:8000/api/swagger/)
 
 ### ReDoc
-ReDoc es una documentación estática y más limpia de la API.
+ReDoc es una documentación estática y más limpia de la API. (Se ingresa al siguiente link con el servidor DJango iniciado, no es un dominio)
 
 - **URL**: [http://127.0.0.1:8000/api/redoc/](http://127.0.0.1:8000/api/redoc/)
 
