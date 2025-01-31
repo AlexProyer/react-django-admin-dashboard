@@ -68,11 +68,11 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
     cd backend
     ```
 4. Instala las dependencias del backend: 
-    ```bash
+   ```bash
    pip install -r requirements.txt
    ```
 5. Vuelve una carpeta atrás e ingresa al directorio del frontend: 
-    ```bash
+   ```bash
    cd ..
    cd frontentd
    ```
@@ -81,20 +81,20 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
     npm install
     ```
 7. Vuelve una carpeta atrás e ingresa al directorio del backend nuevamente:
-    ```bash
+   ```bash
    cd ..
    cd backend
    ``` 
 8. Configura la base de datos:  
-    ```bash
+   ```bash
    python manage.py migrate
    ```
 9. Crea un superusuario (admin):  
-    ```bash
+   ```bash
    python manage.py createsuperuser
    ```
 10. Ejecuta el servidor de Django:  
-    ```bash
+   ```bash
    python manage.py runserver
    ```
 12. Abre una terminal e ingresa al directorio del frontend (../pruebaTecnica/frontend)
