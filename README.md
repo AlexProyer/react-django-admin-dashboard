@@ -84,6 +84,7 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 8. Configura la base de datos:  
    ```bash
    python manage.py migrate
+   python manage.py makemigrations
    ```
 9. Crea un superusuario (admin):  
    ```bash
