@@ -101,6 +101,10 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 
 ### Uso
 
+## Credenciales
+
+Para probar el proyecto, consulta las [credenciales aquí](CREDENCIALES.md).
+
 - **Usuario Admin**:
   - Inicia sesión con las credenciales de administrador.
   - Accede a la consola de administración para ver las estadísticas de los usuarios.
