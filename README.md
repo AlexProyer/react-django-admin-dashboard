@@ -8,27 +8,23 @@ La documentación de la API fue generada usando [drf-yasg](https://drf-yasg.read
 La documentación de la API está generada automáticamente usando **drf-yasg**. Puedes acceder a ella desde las siguientes URLs:
 
 ### Swagger UI
-Swagger es una interfaz interactiva que te permite explorar y probar los endpoints de la API.
+Swagger es una interfaz interactiva que te permite explorar y probar los endpoints de la API. (Se ingresa al siguiente link con el servidor DJango iniciado, no es un dominio)
 
 - **URL**: [http://127.0.0.1:8000/api/swagger/](http://127.0.0.1:8000/api/swagger/)
 
 ### ReDoc
-ReDoc es una documentación estática y más limpia de la API.
+ReDoc es una documentación estática y más limpia de la API. (Se ingresa al siguiente link con el servidor DJango iniciado, no es un dominio)
 
 - **URL**: [http://127.0.0.1:8000/api/redoc/](http://127.0.0.1:8000/api/redoc/)
 
 ---
 
-### Explicación de la sección
 1. **Swagger UI**:
    - Proporciona una interfaz interactiva donde los usuarios pueden probar los endpoints de la API directamente desde el navegador.
    - Es ideal para desarrolladores que quieren explorar la API rápidamente.
 
 2. **ReDoc**:
    - Ofrece una documentación estática y más limpia, ideal para usuarios que solo quieren leer la documentación sin interactuar con la API.
-
-3. **Instrucciones claras**:
-   - Incluye pasos sencillos para acceder a la documentación, como iniciar el servidor de Django y visitar las URLs proporcionadas.
 
 ---
 
@@ -41,9 +37,9 @@ ReDoc es una documentación estática y más limpia de la API.
 
 ## Requisitos previos
 Asegúrate de tener instalado lo siguiente en tu sistema:
-- Python 3.x
-- Node.js (versión X)
-- npm o yarn
+- Python 3
+- Node.js 
+- npm
 - Git
 
 ## Tecnologías utilizadas
@@ -57,22 +53,22 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/AlexProyer/react-django-admin-dashboard
    ```
 2. Ve al directorio del proyecto: 
     ```bash
-    cd pruebaTecnica
+    cd react-django-admin-dashboard
     ```
 3. Ve al directorio del backend: 
     ```bash
     cd backend
     ```
 4. Instala las dependencias del backend: 
-    ```bash
+   ```bash
    pip install -r requirements.txt
    ```
 5. Vuelve una carpeta atrás e ingresa al directorio del frontend: 
-    ```bash
+   ```bash
    cd ..
    cd frontentd
    ```
@@ -81,23 +77,24 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
     npm install
     ```
 7. Vuelve una carpeta atrás e ingresa al directorio del backend nuevamente:
-    ```bash
+   ```bash
    cd ..
    cd backend
    ``` 
 8. Configura la base de datos:  
-    ```bash
+   ```bash
    python manage.py migrate
+   python manage.py makemigrations
    ```
 9. Crea un superusuario (admin):  
-    ```bash
+   ```bash
    python manage.py createsuperuser
    ```
 10. Ejecuta el servidor de Django:  
-    ```bash
+   ```bash
    python manage.py runserver
    ```
-12. Abre una terminal e ingresa al directorio del frontend (../pruebaTecnica/frontend)
+12. Abre una terminal e ingresa al directorio del frontend (../react-django-admin-dashboard/frontend)
     ```bash 
     cd frontend
     ```
