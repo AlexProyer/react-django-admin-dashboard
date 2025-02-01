@@ -103,7 +103,7 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 
 ## Credenciales
 
-Para probar el proyecto, consulta las [credenciales aquí](CREDENCIALES.md).
+Para probar el proyecto, consulta las [credenciales aquí](credenciales.md).
 
 - **Usuario Admin**:
   - Inicia sesión con las credenciales de administrador.
