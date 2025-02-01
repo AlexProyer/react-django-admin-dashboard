@@ -51,55 +51,84 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 
 ### Instalación
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/AlexProyer/react-django-admin-dashboard
-   ```
-2. Ve al directorio del proyecto: 
-    ```bash
-    cd react-django-admin-dashboard
-    ```
-3. Ve al directorio del backend: 
-    ```bash
-    cd backend
-    ```
-4. Instala las dependencias del backend: 
-   ```bash
-   pip install -r requirements.txt
-   ```
-5. Vuelve una carpeta atrás e ingresa al directorio del frontend: 
-   ```bash
-   cd ..
-   cd frontentd
-   ```
-6. Instala las dependencias del frontend: 
-    ```bash 
-    npm install
-    ```
-7. Vuelve una carpeta atrás e ingresa al directorio del backend nuevamente:
-   ```bash
-   cd ..
-   cd backend
-   ``` 
-8. Configura la base de datos:  
-   ```bash
-   python manage.py migrate
-   python manage.py makemigrations
-   ```
-9. Ejecuta el servidor de Django:  
-   ```bash
-   python manage.py runserver
-   ```
-10. Abre una terminal e ingresa al directorio del frontend (../react-django-admin-dashboard/frontend)
-    ```bash 
-    cd frontend
-    ```
-11. Ejecuta el servidor de React: 
-    ```bash 
-    npm start
-    ```
+Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local.
 
-### Uso
+#### **1. Clona el repositorio**
+Primero, clona el repositorio en tu máquina local:
+```bash
+git clone https://github.com/AlexProyer/react-django-admin-dashboard.git
+cd react-django-admin-dashboard
+```
+
+#### **2. Configura el entorno virtual para el backend**
+Es recomendable usar un entorno virtual para gestionar las dependencias del backend. Sigue estos pasos:
+
+2.1 Crea un entorno virtual:
+```bash
+python -m venv venv
+```
+2.2 Activa el entorno virtual:
+En Windows:
+```bash
+.\venv\Scripts\activate
+```
+En MacOS/Linux:
+```bash
+source venv/bin/activate
+```
+2.3 Instala las dependencias del backend:
+```bash
+cd backend
+pip install -r requirements.txt
+```
+2.4 Configura la base de datos:
+```bash
+python manage.py migrate
+python manage.py makemigrations
+```
+2.5 Ejecuta el servidor de Django:
+```bash
+python manage.py runserver
+```
+
+#### **2. Configura el frontend**
+El frontend está construido con React. Sigue estos pasos para configurarlo:
+
+3.1 Ve al directorio del frontend:
+```bash
+cd ../frontend
+```
+3.2 Instala las dependencias del frontend:
+```bash
+npm install
+```
+3.3 Ejecuta el servidor de desarrollo de React:
+```bash
+npm start
+```
+El frontend estará disponible en ```http://localhost:3000.```
+
+#### **4. Inicia ambos servidores**
+Para probar completamente el proyecto, necesitas ejecutar ambos servidores (backend y frontend):
+Abre dos terminales separadas:
+> En la primera terminal, asegúrate de que el servidor de Django esté en ejecución:
+```bash
+cd backend
+python manage.py runserver
+```
+> En la segunda terminal, asegúrate de que el servidor de React esté en ejecución:
+```bash
+cd frontend
+npm start
+```
+
+## Notas adicionales
+#### Entorno virtual: Siempre usa un entorno virtual para evitar conflictos entre dependencias globales y locales.
+#### Base de datos: Si usas una base de datos diferente a SQLite (por ejemplo, MySQL o PostgreSQL), asegúrate de configurarla en backend/settings.py.
+#### Credenciales: Consulta el archivo CREDENCIALES.md para obtener las credenciales de prueba del proyecto.
+#### Puertos: Si los puertos predeterminados (8000 para Django y 3000 para React) están ocupados, puedes cambiarlos en la configuración correspondiente.
+
+## Uso
 
 ## Credenciales
 
