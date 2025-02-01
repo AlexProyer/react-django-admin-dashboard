@@ -86,15 +86,11 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
    python manage.py migrate
    python manage.py makemigrations
    ```
-9. Crea un superusuario (admin):  
-   ```bash
-   python manage.py createsuperuser
-   ```
-10. Ejecuta el servidor de Django:  
+9. Ejecuta el servidor de Django:  
    ```bash
    python manage.py runserver
    ```
-12. Abre una terminal e ingresa al directorio del frontend (../react-django-admin-dashboard/frontend)
+10. Abre una terminal e ingresa al directorio del frontend (../react-django-admin-dashboard/frontend)
     ```bash 
     cd frontend
     ```
